@@ -1,0 +1,26 @@
+[package]
+name = "midas-gts-exporter"
+version = "0.1.0"
+description = "Rust/Tauri port of MidasGtsExporter"
+authors = ["MidasGtsExporter contributors"]
+edition = "2021"
+
+[features]
+default = []
+app = ["tauri", "tauri-plugin-dialog"]
+
+[lib]
+name = "midas_gts_exporter"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+tauri = { version = "2", features = [], optional = true }
+tauri-plugin-dialog = { version = "2", optional = true }
+thiserror = "2"
+
+[dev-dependencies]
+tempfile = "3"
