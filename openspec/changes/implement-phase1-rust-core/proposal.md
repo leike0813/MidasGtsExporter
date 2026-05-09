@@ -25,9 +25,9 @@ In scope:
   - include node groups only when their group ID exists in `element_groups`.
   - preserve sorted map iteration and parsed group member order.
 - Add parser tests using:
-  - `references/MidasGtsExporter/TestData/MidasGts/GtsModel_Test.fpn`
-  - `references/MidasGtsExporter/TestData/MidasGts/GtsModel_Coarse.fpn`
-  - `references/MidasGtsExporter/TestData/MidasGts/GtsModel_Fine.fpn`
+  - `tests/fixtures/midas_gts/GtsModel_Test.fpn`
+  - `tests/fixtures/midas_gts/GtsModel_Coarse.fpn`
+  - `tests/fixtures/midas_gts/GtsModel_Fine.fpn`
 
 Out of scope:
 

@@ -60,7 +60,7 @@ The Rust backend SHALL report parser failures through structured errors rather t
 
 ### Requirement: Reference Fixture Parser Tests
 
-The project SHALL include parser tests using the reference `.fpn` files under `references/MidasGtsExporter/TestData/MidasGts`.
+The project SHALL include parser tests using `.fpn` fixture files under `tests/fixtures/midas_gts`.
 
 #### Scenario: Reference fixtures parse successfully
 

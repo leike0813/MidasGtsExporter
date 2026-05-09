@@ -72,7 +72,7 @@ The project SHALL include tests that validate exporter behavior against referenc
 
 #### Scenario: Reference fixtures can be exported to all Phase 2 formats
 
-- **GIVEN** reference `.fpn` fixtures under `references/MidasGtsExporter/TestData/MidasGts`
+- **GIVEN** `.fpn` fixtures under `tests/fixtures/midas_gts`
 - **WHEN** exporter tests parse each fixture and export FLAC3D, Abaqus, and LS-DYNA outputs to temporary directories
 - **THEN** expected output files exist
 - **AND** generated files are nonempty

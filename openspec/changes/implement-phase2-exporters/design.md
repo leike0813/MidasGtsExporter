@@ -84,7 +84,7 @@ Key behaviors:
 
 Because no original C# output files are available, tests should be contract-driven:
 
-- Use reference `.fpn` fixtures from `references/MidasGtsExporter/TestData/MidasGts`.
+- Use `.fpn` fixtures from `tests/fixtures/midas_gts`.
 - Export each format into a temporary directory.
 - Assert expected files exist and are nonempty.
 - Assert key headers and sections exist.

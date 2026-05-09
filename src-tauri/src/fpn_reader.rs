@@ -307,10 +307,9 @@ mod tests {
     fn fixture_path(name: &str) -> PathBuf {
         Path::new(env!("CARGO_MANIFEST_DIR"))
             .join("..")
-            .join("references")
-            .join("MidasGtsExporter")
-            .join("TestData")
-            .join("MidasGts")
+            .join("tests")
+            .join("fixtures")
+            .join("midas_gts")
             .join(name)
     }
 
